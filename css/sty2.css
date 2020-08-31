@@ -48,21 +48,47 @@ main {
   justify-content: center;
   margin: 0 auto;
   background-color: #323031;
+<<<<<<< HEAD
+  width: 100%;
+=======
   width: 980px;
+>>>>>>> 10606f8d868ab8fa3318fbd3c6b6e65ad20a83d4
   height: 60px;
 }
 .url-menu {
   border-bottom: 3px solid #ADA8B6;
   height: 60px;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 10606f8d868ab8fa3318fbd3c6b6e65ad20a83d4
 }
 .menu {
   display: inline-flex;
   width: 90%;
+<<<<<<< HEAD
+  width: 980px;
+  justify-content: center;
+  padding-top: 21px;
+=======
+>>>>>>> 10606f8d868ab8fa3318fbd3c6b6e65ad20a83d4
 }
 .menu ul li {
   display: inline-block;
   margin-left: 30px;
+<<<<<<< HEAD
+  height: 42px;
 }
+.menu ul li:hover {
+  border-bottom: 3px solid #A2FAA3;
+}
+
+.menu ul li a:hover {
+  color: #A2FAA3;
+  }
+=======
+}
+>>>>>>> 10606f8d868ab8fa3318fbd3c6b6e65ad20a83d4
 .menu ul li a {
   justify-content: center;
   color: #ADA8B6;
@@ -72,12 +98,20 @@ main {
 }
 
 }
+<<<<<<< HEAD
+.search {
+=======
 .busca {
+>>>>>>> 10606f8d868ab8fa3318fbd3c6b6e65ad20a83d4
   text-align: center;
   width: 10%;
   float: right;
 }
+<<<<<<< HEAD
+.search input {
+=======
 .busca input {
+>>>>>>> 10606f8d868ab8fa3318fbd3c6b6e65ad20a83d4
   background-image: url('../img/search-icon.png');
   background-repeat: no-repeat;
   height: 25px;
@@ -94,3 +128,18 @@ main {
   float: left;
   position: relative;
 }
+<<<<<<< HEAD
+.slideContainer {
+  width: 980px;
+  height: 500px;
+  margin: auto;
+  overflow: hidden;
+
+}
+.kittensFade {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+=======
+>>>>>>> 10606f8d868ab8fa3318fbd3c6b6e65ad20a83d4
