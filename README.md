@@ -1,2 +1,2 @@
 # CuteKittens
-Just a cute web page full of kittens
+I'm making a cute web page full of kittens
