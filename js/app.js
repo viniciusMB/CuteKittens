@@ -1,7 +1,14 @@
-const kittensFade = document.querySelector('./cutekittens/kittensFade');
-const kittensImages = document.querySelectorAll('./cutekittens/kittensFade img');
+const slideshowImages = document.querySelectorAll(".intro .slide-show-img");
 
-let counter = 1;
-const size = kittensImages[0].clientWidth;
+const nextImageDelay = 5000;
+let currentImageCounter = 0;
 
-kittensImages.style.transform = 'translateX(' + (-size * counter) + 'px)';
+
+slideshowImages[currentImageCounter].style.opacity = 1;
+setInterval(nextImage, nextImageDelay);
+
+function nextImage() {
+  slideshowImages[currentImageCounter].style.opacity = 0;
+  currentImageCounter = (currentImageCounter + 1) % slideshowImages.length;
+  slideshowImages[currentImageCounter].style.opacity = 1;
+}
