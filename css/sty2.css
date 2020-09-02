@@ -2,6 +2,7 @@ body {
   height: 100%;
   width: 100%;
   margin: 0 auto;
+  background-color: #0E0A17;
 }
 ul {
   padding: 0px!important;
@@ -17,14 +18,18 @@ ul {
 }
 
 main {
-  margin:0 auto;
-  width: 980px;
+  width: 100%;
+  float: left;
   position: relative;
+  justify-content: center;
 }
 
 .mheader{
-    display: flex;
-    justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  width: 980px;
+  display: flex;
+  justify-content: center;
 }
 
 .logo{
@@ -127,9 +132,20 @@ main {
 .intro {
   display: flex;
   position: relative;
+  align-items: center;
+  }
+
+.slidecontainer {
+
+  margin-top: 30px;
+  width: 980px;
+  height: 500px;
+  background: #323031;
+  border: 7px solid #323031;
 }
 
 .slide-show-img {
+  margin-top: 30px;
   position: absolute;
   width: 980px;
   height: 500px;
