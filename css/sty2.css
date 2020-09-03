@@ -153,3 +153,92 @@ main {
   opacity: 0;
   transition: opacity 1s ease-in-out;
 }
+.bodyb {
+  margin-top: 30px;
+  display: flex;
+  position: relative;
+  align-items: center;
+
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+
+  border-radius: 5px;
+  z-index: 20;
+  background-color: #A2FAA3;
+  width: 1000px;
+  height: 515px;
+  max width: 80%;
+  align-items: center;
+}
+
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  height: 15px;
+  padding: 5px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 2.00rem;
+  font-weight: bold;
+  margin-left: 955px;
+
+}
+.modal-body {
+  align-items: center;
+  padding-right: 0px;
+  padding-bottom: 10px;
+}
+.modal-body img {
+  align-self: center;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0E0A17;
+  pointer-events: none;
+}
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+.buttonscontainer {
+  padding-left: 193.3px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #0E0A17;
+  background-color: #A2FAA3;
+  width: 100px;
+  height: 50px;
+  justify-content: center;
+  display: inline-block;
+  position: relative;
+  margin-right: 193.33px;
+}
