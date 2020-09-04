@@ -210,7 +210,7 @@ main {
 #overlay {
   position: fixed;
   opacity: 0;
-  transition: 200ms ease-in-out;
+  transition: 300ms ease-in-out;
   top: 0;
   left: 0;
   right: 0;
@@ -231,6 +231,7 @@ main {
   justify-content: center;
 }
 .buttons {
+  border-radius: 5px;
   font-weight: bolder;
   text-transform: uppercase;
   color: #0E0A17;
@@ -241,4 +242,18 @@ main {
   display: inline-block;
   position: relative;
   margin-right: 193.33px;
+}
+
+.beatcontainer {
+  display: inline-flex;
+  position: relative;
+  margin-left: 439px;
+}
+
+.chillbeat {
+  margin-right: 395px;
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
+
 }
